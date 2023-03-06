@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package com.sist.web;
 
 import org.springframework.stereotype.Controller;
@@ -15,4 +16,17 @@ public class MainController {
 		System.out.println("test");
 >>>>>>> refs/remotes/origin/master
 	}
+=======
+package com.sist.web;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@Controller
+public class MainController {
+	@GetMapping("main/main.do")
+	public String main_main() {
+		return "main";
+	}
+>>>>>>> refs/remotes/origin/main
 }
