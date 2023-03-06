@@ -9,6 +9,7 @@ public class MainController {
 	@GetMapping("main/main.do")
 	public String main_main() {
 		System.out.println("test");
+		System.out.println("test111");
 		return "main";
 	}
 }
